@@ -20,7 +20,7 @@ declare global {
 			username: string;
 			displayName: string;
 			photoUrl: string;
-		}
+		};
 	}
 	interface UserEventSummaries {
 		[username: string]: {
@@ -29,8 +29,8 @@ declare global {
 				username: string;
 				displayName: string;
 				photoUrl: string;
-			}
-		}
+			};
+		};
 	}
 }
 
